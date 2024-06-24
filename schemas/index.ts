@@ -1,24 +1,14 @@
 import blockContent from './blockContent'
-import crewMember from './crewMember'
-import castMember from './castMember'
-import movie from './movie'
-import person from './person'
-import screening from './screening'
-import plotSummary from './plotSummary'
-import plotSummaries from './plotSummaries'
-import gallery from './gallery'
+import gallery from './gallerySection'
+import ourHistory from './ourHistorySection'
+import heroSection from './heroSection'
+import wishListSection from './wishListSection'
 
 export const schemaTypes = [
-  // Document types
-  movie,
-  person,
-  screening,
+  heroSection,
+  ourHistory,
+  wishListSection,
   gallery,
-
   // Other types
   blockContent,
-  plotSummary,
-  plotSummaries,
-  castMember,
-  crewMember,
 ]
